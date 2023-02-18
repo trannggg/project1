@@ -83,9 +83,12 @@ require_once ('../connect_db/connect_db.php');
                     <td><?php echo $row['phone_number']; ?></td>
                     <td><?php echo $row['email']; ?></td>
                     <td><?php echo $row['password']; ?></td>
-                    <td class="table-td-center"><button class="btn btn-primary btn-sm trash" type="button" title="Xóa"
-                                                        onclick="myFunction(this)"><i class="fas fa-trash-alt"></i>
-                        </button>
+                    <td class="table-td-center">
+                        <a href="delete_user.php?id=<?php echo $row["id"]; ?>" onclick="return confirm('bạn có chắc muốn xoá user này ?')" >
+                            <button class="btn btn-primary btn-sm trash" title="Xóa" ><i
+                                        class="fas fa-trash-alt" style="color: white"></i>
+                            </button>
+                            </a>
                         <a href="?user_id=<?php echo $row['id']; ?>">
                         <button class="btn btn-primary btn-sm edit" type="button"  ><i class="fas fa-edit"></i>
                         </button>

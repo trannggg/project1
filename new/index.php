@@ -81,7 +81,7 @@
                     <li><a color="red" href="#">GIỚI THIỆU</a></li>
                     <li><a href="#">SƠN NƯỚC</a></li>
                     <li><a href="#">SƠN DẦU</a></li>
-                    <li><a href="#">SƠN CHỐNG DỈ</a></li>
+                    <li><a href="#">SƠN CHỐNG RỈ</a></li>
                     <li><a href="#">DỤNG CỤ SƠN</a></li>
                     <li><a href="#">BẢNG MÀU</a></li>
                     
