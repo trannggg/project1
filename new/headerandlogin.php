@@ -17,13 +17,13 @@ $user = (isset($_SESSION['user'])) ? $_SESSION['user'] : [];
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="">
+                                    <a href="#">
                                     <img width="30" height="30" src="https://cdn-icons-png.flaticon.com/512/109/109613.png"/>
                                     7h - 21h hằng ngày
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="">
+                                    <a href="#">
                                     <img width="30" height="30" src="https://cdn-icons-png.flaticon.com/128/126/126509.png"/>
                                     0976167213
                                     </a>
@@ -48,7 +48,9 @@ $user = (isset($_SESSION['user'])) ? $_SESSION['user'] : [];
 
             </div>
         <!-- </div> -->
-    </header></section>
+    </header>
+</section>
+
 
     <?php if (isset($user['email'])) { ?>
 <div class="modal fade"  id="profileModal" tabindex="-1" role="dialog" aria-labelledby="profileModalLabel" aria-hidden="true">

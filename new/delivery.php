@@ -155,6 +155,10 @@ include ('headerandlogin.php');
             <a href="#" class="fab fa-linkedin"></a>
             <a href="#" class="fab fa-pinterest"></a>
         </div>
+        <div class="service">                       
+                <li><a href="https://www.facebook.com/profile.php?id=100040797199081&sk=about">Chat qua Message: Nguyễn Văn Khải</a></li>
+                <li><a href="#">Gmail: nguyenvankhai0707@gmail.com</a></li>                                       
+        </div>
     </div>
 </section>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
