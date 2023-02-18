@@ -1,0 +1,48 @@
+.notification {
+    position: relative;
+}
+.notification .notification-content {
+    display: none;
+    position: fixed;
+    text-align: center;
+    background-color: chartreuse;
+    /* width: 240px; */
+    height: 40px;
+    line-height: 40px;
+    z-index: 9999999;
+    transition: all 2s linear;
+    color: white;
+}
+
+.user-manager {
+    display: none;
+}
+
+.order-manager {
+    display: none;
+}
+.activity table th{
+    border: 1px solid rgba(0,0,0,0.1);
+}
+.activity table td{
+    border-right: 1px solid rgba(0,0,0,0.1);
+    border-left: 1px solid rgba(0,0,0,0.1);
+}
+.activity table tr{
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.category-right-top-item select {
+    /* width: 100%; */
+    padding: 10px 15px;
+    display: flex;
+    background-color: #ffff;
+    border: 1px solid #dddddd;
+    cursor: pointer;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.category-right-top-item {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}

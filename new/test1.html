@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang \='en'>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="X-UA-Compatible" content ="ie-edge">
+        <link rel="stylesheet" type="text/css" href="test.css"/>
+        <title> Trang giao hàng</title>
+
+    </head>
+    <body>
+        <div class="menu">
+            <ul>
+                            <li>
+                                <a href="https://www.google.com/maps/place/7PH844Q3%2BM7R/@21.1392375,106.1018941,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x6df181d56274310!8m2!3d21.1392375!4d106.1031406">
+                                <img width="30" height="30" src="https://cdn-icons-png.flaticon.com/128/0/619.png"/>
+                                15 ngõ 339 Môn Tự, Nam Sơn, <br>TP Bắc Ninh, Tỉnh Bắc Ninh
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                <img width="30" height="30" src="https://cdn-icons-png.flaticon.com/512/109/109613.png"/>
+                                7h - 21h hằng ngày
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                <img width="30" height="30" src="https://cdn-icons-png.flaticon.com/128/126/126509.png"/>
+                                0976167213
+                                </a>
+                            </li> 
+            </ul>
+        </div>
+
+        <div class="others">
+            <li> <form id="myform">
+                <input type="text" placeholder="Tìm Kiếm" name="search">
+                    <a onclick="document.getElementById('myform').submit()"> <i class="fa fa-search" style="font-size:20px" aria-hidden="true"></i> </li></a>
+            </form>
+            <?php
+            if (isset($user['email'])) {
+            ?>
+                <li id="userProfile" data-toggle="modal" data-target="#profileModal"><a class="fa fa-user" style="font-size:20px"  aria-hidden="true" ></a> Tài Khoản </li>
+            <?php } else { ?>
+
+                <li onclick="window.location='login.php';"id="Login"><a class="fa fa-user" style="font-size:20px"  aria-hidden="true"></a> Đăng Nhập</li>
+            <?php } ?>
+            <li onclick="window.location='cart.php';"><a class="fa fa-shopping-basket" style="font-size:20px"  aria-hidden="true" href="#"></a> Giỏ Hàng </li>
+
+        </div>
+    </body>
+</html>
